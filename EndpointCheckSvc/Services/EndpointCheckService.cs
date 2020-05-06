@@ -19,6 +19,8 @@ namespace EndpointCheckSvc
 
         public override Task<EndpointCheckReply> CheckEndpoint(EndpointCheckRequest request, ServerCallContext context)
         {
+
+
             var item = JsonConvert.DeserializeObject<EndpointCheck>(request.Json);
             item.StartTime = DateTime.Now;
             item.Success = true;

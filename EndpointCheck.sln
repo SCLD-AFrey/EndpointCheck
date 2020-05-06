@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndpointCheck", "EndpointCheck\EndpointCheck.csproj", "{974E1D07-4747-4AFD-B268-5F43CC1AC419}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndpointCheck", "EndpointCheck\EndpointCheck.csproj", "{974E1D07-4747-4AFD-B268-5F43CC1AC419}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndpointCheckSvc", "EndpointCheckSvc\EndpointCheckSvc.csproj", "{494841D5-363F-4C67-B5A5-6920B136808D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndpointCheckClient", "EndpointCheckClient\EndpointCheckClient.csproj", "{F30B42D5-569A-4E12-87EE-4FD5116DAAF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndpointCheckSvc", "EndpointCheckSvc\EndpointCheckSvc.csproj", "{494841D5-363F-4C67-B5A5-6920B136808D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{494841D5-363F-4C67-B5A5-6920B136808D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{494841D5-363F-4C67-B5A5-6920B136808D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{494841D5-363F-4C67-B5A5-6920B136808D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F30B42D5-569A-4E12-87EE-4FD5116DAAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F30B42D5-569A-4E12-87EE-4FD5116DAAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F30B42D5-569A-4E12-87EE-4FD5116DAAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F30B42D5-569A-4E12-87EE-4FD5116DAAF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
