@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="e7ce9ee2-bebc-4634-94a0-856e94c7b75d" namespace="EndpointSvc" dataBaseShemaInfo="H4sIAAAAAAAEAO1Z33PaOBB+70z/Bw9PdzMRtvzbHUOngSTDtNcyIen0rSNLq8QXY3OyTZL+9Scbm9gEGqA0uc6VB0CfVrv7aeXVLvhv76aRMgeRhknc6+Cu1nnbf/3KPyYpTLJEkCsYxTxRpFScvrlLw17nOstmb1T19va2e2t0E3Gl6pqG1S9/fZjQa5gSFMZpRmIKneUq9vSqjrSqKP4FCSJIC5PluEYaQA0pH8kUep2TmM2SMM4G10BvOksZKTUW4ZSI+/dwX4mO339tSyuj9DIO/8nlXCZyaK6W6wdJlE/jtAVKOM1EGF/1P42Gvlp9by1TH6/z1QdfmvA6C/7weAEri4+L+5l0bxRnht6peEjThetSWeW3HIwYxFmYNZCPeRQV+9TrcBKlEhoeF7oWKuQWdBR1C8NDksFFOIXa9iQjIlsATX1MimUluo9SGZUfVTkpI1ErLN47yiT8Jr9jTWsrjudE0Gsi/pAzf+6jfTQmjAlI059nYhyRjCdiekgLx0kSAYmXkcwpLTk01Qbhluei7e6JEIk4pK/t8z6T5yBMs5B+SOjNaQgR2/M0t9SeDc6BJuIpXWsf6FHM4A4ePbklXKkPa/1fN6aojUmgnKiSS61mbbZZ716BVs58z8Pd8uEWrm7Kibt46auP99Y/TQSEV7HMeGkjNr5aXgQP45O4HBe++2o1WE4Ow7QALmdFYumXOVHab4FL2bM8ZCPWdz3s6oZNEMa6hUzLYCjQXYIcg3ILcwI2c3y1El4urpi2rqyNsJwogrGYXGxgY9ySqwhVnq/Q25Vik6ZWvdCat/r1iGYjpvswXd4jT/JdG80foQuaxkxMXaSDqyPT5hwRAg6yLN1j4Dget9mh6VY33POTtcCyCAQ2CmyDIpMHGLkGcVHg2o7GCSPY9A5Ntvj6/EyJ61kWNR1kOFQydThDEjKRLutMk1iGZ8DBmS4rgRcILOMOWNhGYFMbmYaFEbE9grgHnkccT9cs89B066rk+dk6xKMB9yjSHeIg07MNRFigIWa52HawzTHAwVPUokB6frLMCrAJroOoYcjQmh5GgUENpDHMdW5jQjE+eIIqKrjnp8qpY2kWcKTZpoZMl1AUcGIjS9OoTM/g6Nw9NNU15eThLt3FDv0379yHSvKXZrsOrUrBHX43+DL+FPwNNCsq/yd/NmgJ//7VYMfusFZQN4i6ZW5oEOXMXu3yuzSFaRDd72tl7x6v1r7DCdmij6q1/pSW76CevnTHVw4Lav0mrUqsxFebw/W5bZ/ucK+k9rs73IbpwwPwv6DbTF+/OuVtbudq/CDiF381ABuLhJZg9cj7nxf/S/SHMD+5mxWNVndIMtKd61oXHynVdK8YdY2udqQM8ijLBfRiyDNBoiNlnAdRSGUauUhuIO4FrsuwY5nM0TQwPeKrtYnS3iAiMhRpEYHzfLm7/jsmXQMe3i1TUQFNct6CzmGazGFVcIGuyg5ICv3LWF5H8RXIgqwcL7ZmnQ+yKElmILLwhX3b4IZ/BjEIebwGyXQqK4q0KgwfwS3hIaQyw4M4DeVRWFnRniuX1ZXJMVyTeZgIeSg4keGWD8zqzOtXvrryB1b/XzrW3EPpGgAA" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName="EndpointCheckerConn" createdInVersion="20.1.3.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="true" lastModifiedInVersion="20.1.3.0" name="EndpointChecker" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="57b69f50-ffc6-434c-af68-a6eeb93b2a9c">
+      <xpObject Id="8918236a-1125-453d-b28a-73cf51fae6d7" name="EndpointCheck" baseClass="XPObject" userFileName="EndpointCheck" designerFileName="EndpointCheck.Designer" className="EndpointCheck" persistent="EndpointCheck" virtualName="EndpointCheck">
+        <fields>
+          <generalXpObjectHasFields Id="46dca570-fe68-4c64-85d7-e0e59e3cc12f">
+            <field Id="e00d41c8-2e82-46ff-aae7-5529de779f6d" name="StartTime" columnType="DateTime" persistent="StartTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="5bd9feac-bf39-4e36-974f-877b2df20a01">
+            <field Id="5e55aeb6-b63c-4fb1-83a8-b8670fada149" name="EndTime" columnType="DateTime" persistent="EndTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7ae5a333-eed1-4021-b1dd-2c193e066978">
+            <field Id="a8955c47-37cc-47fd-a894-22004a5393e9" name="Name" persistent="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="8fa2a4ac-b15c-40cf-8100-d7fcd5819f7d">
+            <field Id="5df7e516-e6c6-4351-a69a-f9e99a792054" name="IPaddress" persistent="IPaddress" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="982f210f-f565-4eb1-933d-926d905f614a">
+            <field Id="7a9cbf9c-27a7-4963-adb0-d5816716f1ee" name="Platform" persistent="Platform" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="238913db-34f4-40a8-90b8-88b29aed9eb9">
+            <field Id="d5b14e87-c336-4491-b3c3-0d1f2f61ac11" name="Success" columnType="Boolean" persistent="Success" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="ecc9502d-e30e-4404-b6d5-94654bc18482">
+            <field Id="fc7505ef-0640-48ac-bfa6-500c2e8e72f8" name="Message" persistent="Error" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

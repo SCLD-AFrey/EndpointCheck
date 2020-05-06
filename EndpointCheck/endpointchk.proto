@@ -1,0 +1,21 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "EndpointSvc";
+
+package endpointchk;
+
+// The greeting service definition.
+service EndpointChecker {
+	// Sends a greeting
+	rpc CheckEndpoint (EndpointCheckRequest) returns (EndpointCheckReply);
+}
+
+// The request message containing the user's name.
+message EndpointCheckRequest {
+	string Json = 1;
+}
+
+// The response message containing the greetings.
+message EndpointCheckReply {
+	string Json = 1;
+}
